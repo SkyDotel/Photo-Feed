@@ -1,0 +1,40 @@
+body{
+    background-color:grey;
+}
+
+.title{
+    text-align: center;
+    background-color: white;
+}
+
+.feed_title{
+    float:left;
+    padding-left:10px;
+}
+
+.feed_number{
+    float:right;
+    padding-right:10px;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.my_feed >*{
+    background-color: white;
+}
+
+img{
+    width:500px;
+    height:500px;
+}
+
+.feed_description{
+    position:relative;
+    bottom:20px;
+    padding-left:10px;
+}
